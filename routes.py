@@ -13,11 +13,12 @@ async def register_page():
 async def register():
     ...
 
-#rota de login.
+# rota de login.
 @auth_router.get('/login')
 async def login_page():
     ...
 
+# confirmar cadastro.
 @auth_router.post('/login')
 async def login():
     ...
