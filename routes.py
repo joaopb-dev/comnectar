@@ -18,7 +18,7 @@ async def register():
 async def login_page():
     ...
 
-# confirmar cadastro.
+# confirmar login.
 @auth_router.post('/login')
 async def login():
     ...
